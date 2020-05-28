@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../fonts/Lato-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/Lato-Light.ttf");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Varela";
+  src: url("../fonts/varela-round.ttf");
+}
+* {
+  color: #26272d;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato-Regular";
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #26272d;
+}
+a:hover {
+  color: #26272d;
+}
+
+.menu_toggler {
+  width: 20px;
+  height: 15px;
+}
+
+nav {
+  padding-top: 25px;
+  width: 100%;
+}
+
+li {
+  padding-left: 4%;
+  font-size: 16px;
+}
+
+li a:hover {
+  color: #b5b5b6;
+  cursor: pointer;
+}
+
+.get-app {
+  margin: 0;
+  padding: 0;
+}
+
+.header__title {
+  padding-top: 130px;
+  text-align: center;
+}
+.header__title > h1 {
+  font-family: "Varela";
+  font-size: 62px;
+  padding-bottom: 35px;
+}
+.header__title > p {
+  font-size: 20px;
+  color: #8c8f94;
+  padding-bottom: 30px;
+}
+.header__title > button {
+  border: 1px solid #dadcdf;
+  border-radius: 20px;
+  height: 50px;
+  width: 205px;
+}
+
+.header {
+  height: 100%;
+}
+
+.header__main {
+  background: #ededee url("../images/banner_background.png") no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.main__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 125px 0px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.description__title > p,
+.description__title > h3,
+.description__title > img {
+  margin-bottom: 25px;
+}
+
+.description__title > h3 {
+  font-family: "Lato-Light";
+  font-size: 26px;
+  color: #26272d;
+}
+.description__title > p {
+  font-size: 18px;
+  color: #8c8f94;
+}
+
+.iphone-section {
+  background-image: url("../images/iphone-feature.png");
+  background-position: -100px 85px;
+  background-repeat: no-repeat;
+}
+
+.specification {
+  padding: 225px 0px;
+}
+.specification > h3 {
+  font-family: "Varela";
+  font-size: 42px;
+  margin-top: 80px;
+  line-height: 55px;
+}
+.specification > p {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #8c8f94;
+  line-height: 25px;
+}
+.specification button {
+  padding: 10px 24px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 80px;
+}
+.specification button .fa {
+  color: white;
+  margin-left: 30px;
+}
+.specification button:last-child {
+  border: 1px solid #e9e9ea;
+  background-color: white;
+  padding: 10px 35px;
+}
+@media (max-width: 988px) {
+  .specification {
+    background-color: white;
+  }
+}
